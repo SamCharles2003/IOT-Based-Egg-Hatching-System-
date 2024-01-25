@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID           "TMPL3ZHpCZkQt"
-#define BLYNK_TEMPLATE_NAME         "Egg Hatching System"
-#define BLYNK_AUTH_TOKEN            "BaRaCuUx9EvZQUOtYSZ07IqUm-H1PkLu"
+#define BLYNK_TEMPLATE_ID           "" // Your Credentials
+#define BLYNK_TEMPLATE_NAME         ""
+#define BLYNK_AUTH_TOKEN            ""
 
 #define BLYNK_PRINT Serial
 
@@ -10,8 +10,8 @@
 #include <WiFiUdp.h>
 #include<SoftwareSerial.h>
 
-char ssid[] = "Galaxy A14 5G";
-char pass[] = "masleschar3002";
+char ssid[] = "";
+char pass[] = "";
 
 int previousdate = 0;
 int datecount = 0;
